@@ -1,0 +1,4 @@
+bool is_battery_empty
+---
+bool success
+string state_message
