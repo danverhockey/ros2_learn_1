@@ -17,6 +17,11 @@ def generate_launch_description():
         ]
     )
 
+    color_node = Node(
+        package="turtlesim_catch_them_all_pkg",
+        executable="color_node"
+    )
+
     turtle_spawner_node = Node(
         package="turtlesim_catch_them_all_pkg",
         executable="turtle_spawner",
@@ -27,6 +32,7 @@ def generate_launch_description():
 
     ld.add_action(turtlesim_node)
     ld.add_action(turtle_controller_node)
+    ld.add_action(color_node)
     ld.add_action(turtle_spawner_node)
 
     return ld 

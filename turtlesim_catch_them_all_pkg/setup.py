@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "turtle_controller = turtlesim_catch_them_all_pkg.turtle_controller:main",
-            "turtle_spawner = turtlesim_catch_them_all_pkg.turtle_spawner:main"
+            "turtle_spawner = turtlesim_catch_them_all_pkg.turtle_spawner:main",
+            "color_node = turtlesim_catch_them_all_pkg.color_node:main"
         ],
     },
 )

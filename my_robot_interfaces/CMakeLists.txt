@@ -14,9 +14,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LedStatus.msg"
   "msg/Turtle.msg"
   "msg/TurtleArray.msg"
+  "msg/Color.msg"
+  "msg/ColorArray.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLed.srv"
   "srv/CatchTurtle.srv"
+  "srv/ChangePenColor.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
